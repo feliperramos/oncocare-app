@@ -1,4 +1,7 @@
 {
-  "registerButton": "Cadastrar-se",
-  "loginButton": "Entrar"
+  "welcome": {
+    "registerButton": "cadastrar-se",
+    "loginButton": "entrar",
+    "forgotPassword": "esqueci a senha"
+  }
 }

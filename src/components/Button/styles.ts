@@ -1,0 +1,60 @@
+import { StyleSheet } from "react-native";
+
+export const ButtonStyle = StyleSheet.create({
+  container: {
+    marginTop: 8,
+    marginBottom: 8,
+  },
+  buttonPrimary: {
+    backgroundColor: "#53DC98",
+    borderRadius: 8,
+    width: "100%",
+    height: 36,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    textAlign: "center",
+  },
+  textPrimary: {
+    fontWeight: "700",
+    color: "#DEF8EB",
+    fontFamily: "Arimo",
+    fontSize: 20,
+    lineHeight: 23,
+  },
+  buttonSecondary: {
+    backgroundColor: "#F4FCF8",
+    borderWidth: 2,
+    borderColor: "#53DC98",
+    boxSizing: "border-box",
+    borderRadius: 8,
+    width: "100%",
+    height: 36,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    textAlign: "center",
+  },
+  textSecondary: {
+    fontWeight: "700",
+    color: "#53DC98",
+    fontFamily: "Arimo",
+    fontSize: 20,
+    lineHeight: 23,
+  },
+  altertiveButton: {
+    width: "100%",
+    height: 12,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    textAlign: "center",
+  },
+  alternativeText: {
+    fontFamily: "Arimo",
+    fontWeight: "700",
+    fontSize: 12,
+    lineHeight: 14,
+    color: "#1D2E26",
+  },
+});

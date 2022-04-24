@@ -5,14 +5,22 @@ export const HomeStyles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+    padding: 30,
   },
   logoText: {
     color: "#000",
   },
   authContainer: {
-    margin: 60,
+    marginTop: 55,
+    marginLeft: 30,
+    marginRight: 30,
+    width: "100%",
   },
   registerButton: {
     backgroundColor: "green",
+  },
+  logo: {
+    width: 300,
+    height: 284,
   },
 });

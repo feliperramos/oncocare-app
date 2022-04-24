@@ -1,4 +1,7 @@
 {
-  "registerButton": "Registrarse",
-  "loginButton": "Iniciar Sesión"
+  "welcome": {
+    "registerButton": "registrarse",
+    "loginButton": "iniciar sesión",
+    "forgotPassword": "olvidé la contraseña"
+  }
 }

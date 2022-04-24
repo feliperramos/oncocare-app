@@ -1,4 +1,7 @@
 {
-  "registerButton": "Sign Up",
-  "loginButton": "Sign In"
+  "welcome": {
+    "registerButton": "sign up",
+    "loginButton": "sign in",
+    "forgotPassword": "forgot the password"
+  }
 }
