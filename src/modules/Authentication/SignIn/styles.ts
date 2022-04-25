@@ -7,4 +7,8 @@ export const SignInStyles = StyleSheet.create({
     alignItems: "center",
     padding: 30,
   },
+  authContainer: {
+    width: "100%",
+    marginTop: 8,
+  },
 });
