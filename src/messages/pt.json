@@ -10,5 +10,14 @@
     "fieldPassword": "senha",
     "signInButton": "entrar",
     "forgotPassword": "esqueci a senha"
+  },
+  "signUp": {
+    "title": "cadastrar-se",
+    "fieldName": "nome",
+    "fieldEmail": "email",
+    "fieldPassword": "senha",
+    "fieldPassword2": "confirme a senha",
+    "termsAgreement": "termo de uso e privacidade",
+    "signUpButton": "confirmar"
   }
 }

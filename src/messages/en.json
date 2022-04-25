@@ -10,5 +10,14 @@
     "fieldPassword": "password",
     "signInButton": "log in",
     "forgotPassword": "forgot the password"
+  },
+  "signUp": {
+    "title": "create account",
+    "fieldName": "name",
+    "fieldEmail": "email",
+    "fieldPassword": "password",
+    "fieldPassword2": "re-enter password",
+    "termsAgreement": "agree conditions of use and privacy notice",
+    "signUpButton": "sign up"
   }
 }

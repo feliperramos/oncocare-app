@@ -17,8 +17,8 @@ const languageDetector = {
   type: "languageDetector",
   async: true,
   detect: async (callback: (arg0: string) => any) => {
-    const storedLanguage = await AsyncStorage.getItem("language");
-    if (storedLanguage) return callback(storedLanguage);
+    //const storedLanguage = await AsyncStorage.getItem("language");
+    //if (storedLanguage) return callback(storedLanguage);
 
     let phoneLanguage = null;
     if (Platform.OS === "android") {

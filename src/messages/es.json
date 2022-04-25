@@ -10,5 +10,14 @@
     "fieldPassword": "contraseña",
     "signInButton": "iniciar sesión",
     "forgotPassword": "olvidé la contraseña"
+  },
+  "signUp": {
+    "title": "crear cuenta",
+    "fieldName": "nombre",
+    "fieldEmail": "email",
+    "fieldPassword": "contraseña",
+    "fieldPassword2": "vuelve a escribir la contraseña",
+    "termsAgreement": "acepta las condiciones de uso y el aviso de privacidad",
+    "signUpButton": "crear cuenta"
   }
 }

@@ -31,7 +31,7 @@ const Welcome: React.FC = () => {
         <Button
           type="secondary"
           text={t("registerButton")}
-          onPress={() => console.log("pressed")}
+          onPress={() => navigation.navigate("SignUp")}
         />
         <Button
           type="alternative"
