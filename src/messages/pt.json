@@ -3,5 +3,12 @@
     "registerButton": "cadastrar-se",
     "loginButton": "entrar",
     "forgotPassword": "esqueci a senha"
+  },
+  "signIn": {
+    "title": "acessar conta",
+    "fieldEmail": "email",
+    "fieldPassword": "senha",
+    "signInButton": "entrar",
+    "forgotPassword": "esqueci a senha"
   }
 }

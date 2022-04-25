@@ -3,5 +3,12 @@
     "registerButton": "sign up",
     "loginButton": "sign in",
     "forgotPassword": "forgot the password"
+  },
+  "signIn": {
+    "title": "sign-in",
+    "fieldEmail": "email",
+    "fieldPassword": "password",
+    "signInButton": "log in",
+    "forgotPassword": "forgot the password"
   }
 }

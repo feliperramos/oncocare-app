@@ -8,7 +8,7 @@ import "./src/locales";
 const App: React.FC = () => {
   return (
     <>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="default" />
       <Suspense fallback={<ActivityIndicator />}>
         <Routes />
       </Suspense>

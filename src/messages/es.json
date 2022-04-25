@@ -3,5 +3,12 @@
     "registerButton": "registrarse",
     "loginButton": "iniciar sesión",
     "forgotPassword": "olvidé la contraseña"
+  },
+  "signIn": {
+    "title": "acceder a la cuenta",
+    "fieldEmail": "email",
+    "fieldPassword": "contraseña",
+    "signInButton": "iniciar sesión",
+    "forgotPassword": "olvidé la contraseña"
   }
 }
