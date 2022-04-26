@@ -19,21 +19,39 @@ OncoCare is an application focused on the wellbeing of those who are going throu
 
 # Installation
 
-Clone the project and install the dependencies running the following command:
+## Pre-requisites
 
-`yarn`
+Before you begin, you will need to have the following tools installed on your machine: [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/).
 
-or
+---
 
-`npm install`
+Running the application:
 
-To run the project in Android Device:
+```bash
+# Clone this repository
+> git clone git@github.com:feliperramos/oncocare-app.git
 
-`yarn android`
+# Install the dependencies
+# Using NPM
+> npm install
 
-iOS:
+# Using yarn
+> yarn
 
-`yarn ios`
+# Running the Project in an Android Device or Emulator
+# Using NPM
+> npm android
+
+# Using yarn
+> yarn android
+
+# Running the Project in an iOS Device or Emulator
+# Using NPM
+> npm ios
+
+# Using yarn
+> yarn ios
+```
 
 # Status
 
