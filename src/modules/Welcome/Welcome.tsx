@@ -15,11 +15,10 @@ type welcomeScreenProp = StackNavigationProp<RootStackList, "Welcome">;
 const Welcome: React.FC = () => {
   const navigation = useNavigation<welcomeScreenProp>();
   const { t } = useTranslation("welcome");
-  const LOGO_IMAGE = Image.resolveAssetSource(Logo).uri;
 
   return (
     <View style={HomeStyles.container}>
-      <Image source={{ uri: LOGO_IMAGE }} style={HomeStyles.logo} />
+      <Image source={Logo} style={HomeStyles.logo} />
       <Text text="Cuidar com carinho" type="slogan" />
 
       <View style={HomeStyles.authContainer}>

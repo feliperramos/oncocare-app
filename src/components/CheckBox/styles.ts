@@ -1,7 +1,4 @@
-import React from "react";
 import { StyleSheet } from "react-native";
-import Svg, { Path } from "react-native-svg";
-// import Checked from "../../assets/svg/Checked.svg"
 
 export const CheckBoxStyle = StyleSheet.create({
   container: {
@@ -16,7 +13,16 @@ export const CheckBoxStyle = StyleSheet.create({
     borderRadius: 2,
     borderWidth: 2,
     borderColor: "#53DC98",
+    justifyContent: "center",
+    alignItems: "center",
     margin: 4,
+  },
+  checkedIcon: {
+    width: 13.5,
+    height: 12.5,
+    marginTop: 0.5,
+    marginBottom: 4,
+    marginLeft: 4,
   },
   text: {
     color: "#0E1713",

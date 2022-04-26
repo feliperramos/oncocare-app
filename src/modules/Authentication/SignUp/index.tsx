@@ -8,10 +8,11 @@ import { TextInput, Button, CheckBox } from "../../../components";
 
 import { SignUpStyles } from "./styles";
 
-type signUpScreenProp = StackNavigationProp<RootStackList, "SignIn">;
+type signUpScreenProp = StackNavigationProp<RootStackList, "SignUp">;
 
 const SignUp: React.FC = () => {
   const [state, setState] = useState("");
+  const [check, setCheck] = useState(false);
   const { t } = useTranslation("signUp");
 
   return (
@@ -39,7 +40,11 @@ const SignUp: React.FC = () => {
         passwordField={true}
       />
       <View style={SignUpStyles.authContainer}>
-        <CheckBox text={t("termsAgreement")} />
+        <CheckBox
+          text={t("termsAgreement")}
+          value={check}
+          onChange={() => setCheck(!check)}
+        />
         <Button
           type="primary"
           text={t("signUpButton")}
