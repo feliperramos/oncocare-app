@@ -35,7 +35,7 @@ const Welcome: React.FC = () => {
         <Button
           type="alternative"
           text={t("forgotPassword")}
-          onPress={() => console.log("pressed")}
+          onPress={() => navigation.navigate("ForgotPassword")}
         />
       </View>
     </View>

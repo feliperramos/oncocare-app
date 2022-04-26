@@ -19,5 +19,13 @@
     "fieldPassword2": "vuelve a escribir la contraseña",
     "termsAgreement": "acepta las condiciones de uso y el aviso de privacidad",
     "signUpButton": "crear cuenta"
+  },
+  "forgotPassword": {
+    "title": "recuperar contraseña",
+    "textEmail": "ingresa tu email para recuperar contraseña",
+    "fieldEmail": "email",
+    "buttonSend": "enviar",
+    "codeText": "introduce el código que te enviamos a tu email",
+    "buttonRecovery": "recuperar"
   }
 }

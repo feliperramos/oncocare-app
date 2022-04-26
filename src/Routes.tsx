@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 
 import { myTheme } from "./theme";
 
-import { Welcome, SignIn, SignUp } from "./modules";
+import { Welcome, SignIn, SignUp, ForgotPassword } from "./modules";
 import { Text } from "./components";
 
 const Stack = createNativeStackNavigator();
@@ -27,6 +27,7 @@ const headerStyle = (title: string) =>
 export const Routes = () => {
   const { t } = useTranslation("signIn");
   const x = useTranslation("signUp");
+  const y = useTranslation("forgotPassword");
 
   return (
     <NavigationContainer theme={myTheme}>
@@ -44,6 +45,11 @@ export const Routes = () => {
         <Stack.Screen
           name="SignUp"
           component={SignUp}
+          options={headerStyle(x.t("title"))}
+        />
+        <Stack.Screen
+          name="ForgotPassword"
+          component={ForgotPassword}
           options={headerStyle(x.t("title"))}
         />
       </Stack.Navigator>

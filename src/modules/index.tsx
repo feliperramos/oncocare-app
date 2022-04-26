@@ -1,2 +1,2 @@
 export { Welcome } from "./Welcome";
-export { SignIn, SignUp } from "./Authentication";
+export { SignIn, SignUp, ForgotPassword } from "./Authentication";

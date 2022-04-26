@@ -14,6 +14,7 @@ OncoCare is an application focused on the wellbeing of those who are going throu
 - [Status](#Status)
 - [Features](#features)
 - [Technologies](#Technologies)
+- [Author](#Author)
 <!--te-->
 
 # Installation
@@ -44,13 +45,13 @@ iOS:
 
 # Features
 
-[x] Welcome
-[x] SignIn
-[x] SignUp
-[ ] ForgotPassword
-[ ] Feed
-[ ] Profile
-[ ] Backend Integration
+- [x] Welcome
+- [x] SignIn
+- [x] SignUp
+- [ ] ForgotPassword
+- [ ] Feed
+- [ ] Profile
+- [ ] Backend Integration
 
 # Technologies
 
