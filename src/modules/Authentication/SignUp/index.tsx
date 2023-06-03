@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { View } from "react-native";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { RootStackList } from "./../../screens";
+import { useNavigation } from "@react-navigation/native";
 
 import { TextInput, Button, CheckBox } from "../../../components";
 
@@ -14,6 +15,7 @@ const SignUp: React.FC = () => {
   const [state, setState] = useState("");
   const [check, setCheck] = useState(false);
   const { t } = useTranslation("signUp");
+  const navigation = useNavigation<signUpScreenProp>();
 
   return (
     <View style={SignUpStyles.container}>
@@ -48,7 +50,7 @@ const SignUp: React.FC = () => {
         <Button
           type="primary"
           text={t("signUpButton")}
-          onPress={() => console.log("pressed")}
+          onPress={() => navigation.navigate("Feed")}
         />
       </View>
     </View>

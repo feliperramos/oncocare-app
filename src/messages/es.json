@@ -27,5 +27,8 @@
     "buttonSend": "enviar",
     "codeText": "introduce el código que te enviamos a tu email",
     "buttonRecovery": "recuperar"
+  },
+  "Feed": {
+    "title": "Feed"
   }
 }

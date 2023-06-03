@@ -8,6 +8,7 @@ interface TextInputProp {
   placeholder?: string | undefined;
   onChange: (text: string) => void | undefined;
   passwordField?: boolean;
+  error?: boolean;
 }
 
 const TextInputComponent: React.FC<TextInputProp> = ({
@@ -15,10 +16,11 @@ const TextInputComponent: React.FC<TextInputProp> = ({
   placeholder,
   onChange,
   passwordField,
+  error = false
 }) => {
   return (
     <TextInput
-      style={TextInputStyle.input}
+      style={error ? TextInputStyle.error : TextInputStyle.input}
       keyboardType={type}
       placeholder={placeholder}
       onChangeText={onChange}

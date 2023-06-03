@@ -3,4 +3,6 @@ export type RootStackList = {
   SignIn: undefined;
   SignUp: undefined;
   ForgotPassword: undefined;
+  Feed: undefined;
+  Profile: undefined;
 };

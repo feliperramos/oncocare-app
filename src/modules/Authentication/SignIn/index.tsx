@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { View } from "react-native";
 import { StackNavigationProp } from "@react-navigation/stack";
 import { RootStackList } from "./../../screens";
+import { useNavigation } from "@react-navigation/native";
 
 import { Text, TextInput, Button } from "../../../components";
 
@@ -13,6 +14,7 @@ type signInScreenProp = StackNavigationProp<RootStackList, "SignIn">;
 const SignIn: React.FC = () => {
   const [state, setState] = useState("");
   const { t } = useTranslation("signIn");
+  const navigation = useNavigation<signInScreenProp>();
 
   return (
     <View style={SignInStyles.container}>
@@ -31,12 +33,12 @@ const SignIn: React.FC = () => {
         <Button
           type="primary"
           text={t("signInButton")}
-          onPress={() => console.log("pressed")}
+          onPress={() => navigation.navigate("Feed")}
         />
         <Button
           type="alternative"
           text={t("forgotPassword")}
-          onPress={() => console.log("pressed")}
+          onPress={() => navigation.navigate("ForgotPassword")}
         />
       </View>
     </View>
