@@ -16,7 +16,7 @@ const TabMenu: FC = () => {
         component={Feed}
         options={{
           //title: 'My profile',
-          tabBarIcon: ({ size, focused, color }) => {
+          tabBarIcon: () => {
             return (
               <VectorImage source={require('../../assets/icons/Vector.svg')} />
             );

@@ -34,7 +34,7 @@ export const Routes = () => {
     <NavigationContainer theme={myTheme}>
       <Stack.Navigator initialRouteName="Welcome">
         <Stack.Screen
-          options={({ route, navigation }) => ({ headerShown: false })}
+          options={() => ({ headerShown: false })}
           name="Welcome"
           component={Welcome}
         />
@@ -56,7 +56,7 @@ export const Routes = () => {
         <Stack.Screen
           name="Feed"
           component={TabMenu}
-          options={headerStyle(feed.t("title"))}
+          options={() => ({ headerShown: false })}
         />
       </Stack.Navigator>
     </NavigationContainer>
