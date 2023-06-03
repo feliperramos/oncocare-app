@@ -5,7 +5,7 @@ export const FeedCardStyle = StyleSheet.create({
     width: "100%",
     maxWidth: 328,
     border: "1px solid #7EE5B1",
-    borderRadius: 4,
-    padding: 16,
+    borderRadius: 8,
+    margin: 16,
   },
 });

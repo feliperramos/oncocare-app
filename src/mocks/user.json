@@ -8,42 +8,42 @@
   "feed": [
     {
       "profile": {
-        "img": "http://"
+        "img": "https://randomuser.me/api/portraits/women/50.jpg"
       },
       "comments": "Estou feliz que as coisas estão dando certo!",
-      "emoji": 4,
+      "emoji": 3,
       "like": 0
     },
     {
       "profile": {
-        "img": "http://"
+        "img": "https://randomuser.me/api/portraits/women/9.jpg"
       },
       "comments": "Finalmente estou indo para a última sessão!!!!",
-      "emoji": 5,
+      "emoji": 4,
       "like": 1
     },
     {
       "profile": {
-        "img": "http://"
+        "img": "https://randomuser.me/api/portraits/men/44.jpg"
       },
       "comments": "Acho que eu deveria falar com meu médico ainda essa semana, não estou muito legal...",
-      "emoji": 2,
+      "emoji": 1,
       "like": 4
     },
     {
       "profile": {
-        "img": "http://"
+        "img": "https://randomuser.me/api/portraits/men/82.jpg"
       },
       "comments": "To gostando bastante o app!!!!",
-      "emoji": 4,
+      "emoji": 3,
       "like": 25
     },
     {
       "profile": {
-        "img": "http://"
+        "img": "https://randomuser.me/api/portraits/women/13.jpg"
       },
       "comments": "Alguém pra conversar??",
-      "emoji": 3,
+      "emoji": 2,
       "like": 1
     }
   ]

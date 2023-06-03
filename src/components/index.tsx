@@ -4,3 +4,4 @@ export { default as TextInput } from "./TextInput";
 export { default as CheckBox } from "./CheckBox";
 export { default as TabMenu } from "./TabNavigation";
 export { default as FeedCard } from "./FeedCard"
+export { default as Emoji } from "./Emoji";

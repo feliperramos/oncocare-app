@@ -1,21 +1,19 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { View } from "react-native";
+import { ScrollView } from "react-native";
 
 import MockData from '../../mocks/user.json'
-import { Text, Button, FeedCard } from "../../components";
+import { FeedCard } from "../../components";
 import { FeedStyle } from './styles'
 
 const Feed: React.FC = () => {
   const { feed } = MockData;
   return (
-    <View style={FeedStyle.container}>
-      <Text text="Cuidar com carinho" type="slogan" />
+    <ScrollView contentContainerStyle={FeedStyle.container}>
       <>
-
-        {feed.map((data) => <FeedCard message={data.comments} />)}
+        {feed.map((data) => <FeedCard data={data} />)}
       </>
-    </View>
+    </ScrollView>
   );
 }
 
